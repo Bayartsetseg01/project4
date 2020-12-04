@@ -1,0 +1,22 @@
+.head {
+  height: 50vh;
+  width: 100vw;
+  background: url("/components/header/cover.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+.pro {
+  height: 20vh;
+  border-radius: 50%;
+  border: 7px white solid;
+}
+.pro:hover {
+  height: 30vh;
+  transition: 0.5s ease-in-out;
+}
